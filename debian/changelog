@@ -1,0 +1,5 @@
+rgnome (0.1.9-alpha-1) unstable; urgency=low
+
+  * Initial debianization
+
+ -- Gordon Bergling <gordon@boltzmann-konstante.de>  Sun, 23 Sep 2007 12:28:37 +0200

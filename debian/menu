@@ -1,0 +1,3 @@
+?package(rgnome):needs="X11" section="Apps/Math"\
+  title="RGnome" command="/usr/bin/exaile" \
+  icon="/usr/share/pixmaps/rgnome.png"

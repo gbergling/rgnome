@@ -1,0 +1,15 @@
+Source: rgnome
+Section: universe/mathematics
+Priority: optional
+Maintainer: Gordon Bergling <gordon@boltzmann-konstante.de>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: rgnome
+Architecture: any
+Depends: python-gtk2, python-glade2, python-rpy, python,
+ r-base
+Description: A frontend for GNU R
+ RGnome is a gtk based frontend for GNU R, which is a widely 
+ used language for statistical computing. It features a fully 
+ working R console and an editor with syntax highlighting.

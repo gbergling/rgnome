@@ -1,0 +1,177 @@
+2007-09-23 Gordon Bergling:
++ initial debianization
++ add a basic man-page
+% rename ChangeLog to changelog
+% change project url
+
+2007-09-22 Gordon Bergling:
+- remove ROADMAP
+- update the version to 0.1.9-alpha
+- update the TODO file
+
+2007-05-25 Luca Della Santina:
+
++ rpyconsole: evaluated expressions' history support
++ mainwindow: Loading a .Rdata autoloads the omonimum .Rhistory, if present
++ mainwindow: Save/Save_as autosave .Rhistory file along with the .Rdata
++ mainwindow: New filechooser filter to load/save a .Rhistory file alone
++ mainwindow: Up/Down arrows navigates among commands history (in console mode)
+- mainwindow: removed "view" menu since it had no items
+
+2007-05-20 Luca Della Santina:
+
++ rpyconsole: Evaluated expressions history
++ pkgmanager: "Update" button updates installed packages from CRAN
++ pkgmanager: CRAN mirror selection via combo box
++ pkgmanager: "Refresh" button reloads installed packages list
++ pkgmanager: tooltips for action buttons and live_search text entry
+% pkgmanager: search CRAN_mirrors.csv even in the non_standard /usr/shared/R/doc
+
+2007-05-19 Luca Della Santina:
+
++ Package manager dialog available from console mode
++ pkgmanager: live_search text entry filters packages list as you type
++ pkgmanager: "loaded" column allow user to quickly load/unload packages
++ objectbrowser: distinction between required and optional function parameters
++ objectbrowser: tooltip for function's optional parameters shows default values
+
+2007-05-15 Luca Della Santina:
+
++ objectbrowser: tooltip for models also shows formula used to create the model
++ objectbrowser: tooltip for functions shows parameter names
++ enable print toolbar button when in help mode
+- removed live_search button in all modes
+% proper widget grabs focus when changing current mode
+
+2007-05-13 Luca Della Santina:
+
++ objectbrowser: per-item tooltips summaryzing object properties
++ objectbrowser: pango-markup on tooltips
++ objectbrowser: data.frame category
+% objectbrowser: robj_get_class returns 1st class value if many (e.g. for glm)
+
+2007-05-12 Gordon Bergling:
+
++ (editor.py) use gtk.TextMark for search and replace functions
++ (editor.py) highlight current search position
++ (replacebar.py) make replace and replace_all working
+% (editor.py) correct a bug on counting the cursor position with tabs
+
+2007-05-11 Gordon Bergling:
+
++ (rgnome.glade) rename replace buttons to separate them from the searchbar
++ move redundant code from searchbar.py and replacebar.py to editor.py
++ (editor.py) update comments to match coding style
++ update librgnome/ui/__init__.py
++ Connect missing singals for menu->search (corrects a bug where pressing ctrl + f opens search
+and the replace bar)
+- remove find.py and findreplace.py (redundant files)
+
+2007-05-08 Luca Della Santina:
+
++ live_search filters object browser as you type (when in console mode)
++ live_search field gets colored when filtering is active on objects list
++ objectbrowser: sortable by object name by clicking column title
+- Removed button from live_search box since it is redundant
+
+2007-05-07 Gordon Bergling:
+
++ mainwindow.py: check wether a bar is visible (search and replace)
++ rgnome.glade: add gtk.TABLE for replacebar
++ searchbar.py: add method is_visible
++ replace.py: implement search and replace behaviour
++ on closing the application prompt the user for unsaved changes
+- remove "clear highlight" option from menu
+% (fix) rename searchbar (next, previous) callbacks
+
+2007-05-06 Luca Della Santina:
+
++ Embryonal object browser
+
+2007-05-05 Luca Della Santina:
+
++ mainwindow: print support for console and help modes
++ scriptitem: Script stores buffer field and expose get_buffer()
+% rgnome.glade: moved searchbar, now shared among running modes
+% rgnome.glade: modified searchbar resize behaviour
+% rgnome.glade: refactored vbox/hbox names to be meaningful of their content
+% searchbar.py: fixed close button activation
+% searchbar.py: replaced 0,1 with booleans for local variable values
+% mainwindow: file menuitems works accordingly to current mode
+
+2007-05-04 Gordon Bergling:
+
++ Update TODO and ROADMAP files
++ bump version to 0.1.9b1
++ make preferences work on rpyconsole (font and colors)
++ rpyconsole: make evaluation of text line-by-line
+
+- remove last remaining parts of vte based rconsole
+- remove option "cursor blinks" from preferences
+
+2007-05-02 Gordon Bergling:
+
++ add gtk.STOCK_CLOSE as close button for the searchbar
++ little refactoring for mainwindow.py (style)
+
+2007-05-02 Luca Della Santina:
+
+% helpbrowser: Hacky fix to weird character when displaying R help
+
+2007-05-01 Luca Della Santina:
+
++ rpy-driven help browser
++ tabbed help browser
++ help search history per tab
++ R console help redirection into help browser
++ live_search call for R help when in help mode
+% display help tab name when in help mode, script name otherwise
+- removed url textentry in help mode since unuseful
+
+2007-05-01 Gordon Bergling:
+
++ find dialog is now a searchbar displayed in the editor
+
+2007-04-30 Luca Della Santina:
+
++ printing: encapsulated print/print_preview/page_setup features
++ rpy integration: new console with rpy input/output in rpyconsole.py
++ rpyconsole: Rpy exceptions displayed as console messages
++ mainwindow: Clear toolbutton added for resetting rpyconsole output
++ mainwindow: resizeable sidebar for object browser/mode_switch/live_search
+- mainwindow: main notebook tabs hide in favor of switch mode radio buttons
+- mainwindow: on_close_script_clicked() removed and code joined into script_close()
+% mainwindow: update_window_title() accepts optional parameter "custom_name" to show a different name on rgnome title
+- vte_terminal R console replaced with rpy-driven pseudoconsole
+
+2007-04-25 Gordon Bergling:
+
++ move gui scripts into librgnome/ui
++ split dialogs.py into find.py findreplace.py about.py preferences.py
++ split rgnome.glade into find.glade findreplace.glade preferences.glade
++ update license header
++ find dialog implementation
++ update the Makefile
+
+% rename windows.py to mainwindow.py
+
+2007-04-24 Gordon Bergling:
+
+% remove unnecessary imports in rgnome.py
+
+2007-04-23 Gordon Bergling:
+
+% change window title to "script - RGnome" to be consistent
+with gnome applications
+% search dialogs are no longer resizeable
+% preferences dialog uses now GTK_CENTER_ON_PARENT and GTK_MODAL
+% make the dialogs transient for the main window
+
+2007-04-22 Luca Della Santina:
+
++ script operations encapsulated into scriptitem.py
++ notebook tabs with individual close buttons
++ script-changed status detection
++ confirmation dialog when closing unsaved script
+
+% moved close button from editor toolbar into a file menuitem

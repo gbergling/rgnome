@@ -1,0 +1,9 @@
+R G N O M E  -  T O D O 
+=======================
+
+- drag and drop revisting
+- make the drop of a file to the taskbar and event that does something useful
+- AccelKey-Support
+
+- it is sometimes not possible to load scripts, which aren't properly
+  encoded (utf-8, iso-8859-1, ...)

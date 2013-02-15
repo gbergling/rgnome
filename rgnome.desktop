@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=RGnome
+GenericName=Frontend for GNU R
+Comment=Develop Scripts for GNU R
+Exec=rgnome
+Terminal=false
+Type=Application
+Icon=rgnome.png
+Categories=Application;Development
+MimeType=text/x-R
+GenericName[en_GB]=Frontend for GNU R

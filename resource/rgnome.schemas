@@ -1,0 +1,225 @@
+<gconfschemafile>
+ <schemalist>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/display_line_numbers</key>
+   <applyto>/apps/rgnome/editor/display_line_numbers</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/highlight_current_line</key>
+   <applyto>/apps/rgnome/editor/highlight_current_line</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/display_right_margin</key>
+   <applyto>/apps/rgnome/editor/display_right_margin</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/syntax_highlighting</key>
+   <applyto>/apps/rgnome/editor/syntax_highlighting</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/highlight_matching_bracket</key>
+   <applyto>/apps/rgnome/editor/highlight_matching_bracket</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/automatic_indentation</key>
+   <applyto>/apps/rgnome/editor/automatic_indentation</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/tabs_width</key>
+   <applyto>/apps/rgnome/editor/tabs_width</applyto>
+   <owner>rgnome</owner>
+   <type>int</type>
+   <default>8</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/editor/spaces_instead_of_tabs</key>
+   <applyto>/apps/rgnome/editor/spaces_instead_of_tabs</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/colors/foreground</key>
+   <applyto>/apps/rgnome/colors/foreground</applyto>
+   <owner>rgnome</owner>
+   <type>string</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/colors/background</key>
+   <applyto>/apps/rgnome/colors/background</applyto>
+   <owner>rgnome</owner>
+   <type>string</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/colors/use_system_colors</key>
+   <applyto>/apps/rgnome/colors/use_system_colors</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/colors/buildin_scheme</key>
+   <applyto>/apps/rgnome/colors/buildin_scheme</applyto>
+   <owner>rgnome</owner>
+   <type>string</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/general/save_r_history</key>
+   <applyto>/apps/rgnome/general/save_r_history</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>True</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/general/respawn_r</key>
+   <applyto>/apps/rgnome/general/respawn_r</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/general/use_system_font</key>
+   <applyto>/apps/rgnome/general/use_system_font</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/general/font</key>
+   <applyto>/apps/rgnome/general/font</applyto>
+   <owner>rgnome</owner>
+   <type>string</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+  <schema>
+   <key>/schemas/apps/rgnome/general/cursor_blinks</key>
+   <applyto>/apps/rgnome/general/cursor_blinks</applyto>
+   <owner>rgnome</owner>
+   <type>bool</type>
+   <default>False</default>
+   <locale name="en">
+    <short>description</short>
+   </locale>
+   <locale name="de">
+    <short>description</short>
+   </locale>
+  </schema>
+ </schemalist>
+</gconfschemafile>

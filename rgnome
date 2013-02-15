@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#PRORGAM_DIR="/home/username/apps/rgnome"
+
+# get the app dir if not already defined
+if [ -z "$PROGRAMM_DIR"]; then
+	PROGRAM_DIR=`dirname "$0"`
+fi
+
+# that LD_LIBRARY_PATH is needed to prevent crashing the application
+# due to a bug in gtkmozembed
+if [ "$PROGRAM_DIR" = "." ]; then
+	LD_LIBRARY_PATH=/usr/lib/firefox python $PROGRAM_DIR/rgnome.py $@
+else
+	LD_LIBRARY_PATH=/usr/lib/firefox python /usr/local/share/rgnome/rgnome.py $@
+fi

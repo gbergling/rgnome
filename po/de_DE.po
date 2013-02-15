@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RGnome 0.2.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-04-19 17:02+0100\n"
+"Last-Translator: Gordon Bergling <gordon@boltzmann-konstante.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: ../librgnome/cli.py:33
+msgid ""
+"rgnome is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License as\n"
+"published by the Free Software Foundation; either version 2 of the\n"
+"License, or (at your option) any later version."
+msgstr ""
+"rgnome is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License as\n"
+"published by the Free Software Foundation; either version 2 of the\n"
+"License, or (at your option) any later version."
+
+#: ../librgnome/cli.py:39
+msgid "A frontend for GNU R"
+msgstr "Ein Frontend für GNU R"
+
+#: ../librgnome/cli.py:43
+msgid "Syntax: "
+msgstr "Syntax:"
+
+#: ../librgnome/cli.py:46
+msgid "Options:"
+msgstr "Optionen:"
+
+#: ../librgnome/cli.py:47
+msgid " -v | --version: prints the program version and exits"
+msgstr "-v | --version: gibt die Programm-Version aus"
+
+#: ../librgnome/cli.py:48
+msgid " -h | --help: prints this help message and exits"
+msgstr "-h | --help: gibt diesen Hilfe-Text aus"
+
+#: ../librgnome/cli.py:61
+msgid "--help"
+msgstr "--help"
+
+#: ../librgnome/dialogs.py:53
+msgid "A featureful GNU R frontend."
+msgstr "Ein umfangreiches GNU R Frontend."
+
+#: ../librgnome/statusbar.py:47
+msgid "Ready"
+msgstr "Bereit"
+
+#: ../librgnome/statusbar.py:49
+msgid "Busy"
+msgstr ""
+
+#: ../librgnome/windows.py:149
+#: ../librgnome/windows.py:228
+msgid "New Script"
+msgstr "Neues Skript"
+
+#: ../librgnome/windows.py:243
+msgid "New Script opened in the Editor"
+msgstr "Ein neues Skript wurde im Editor geöffnet"
+
+#: ../librgnome/windows.py:253
+msgid "R Files"
+msgstr "R Dateien"
+
+#: ../librgnome/windows.py:257
+#: ../librgnome/windows.py:270
+msgid "All Files"
+msgstr "Alle Dateien"
+
+#: ../librgnome/windows.py:266
+msgid "R Workspaces"
+msgstr "R Arbeitsplätze"
+
+#: ../librgnome/windows.py:281
+msgid "Open"
+msgstr "Datei öffnen"
+
+#: ../librgnome/windows.py:320
+msgid "Open R workspace"
+msgstr "Öffne einen R Arbeitsplatz"
+
+#: ../librgnome/windows.py:338
+msgid "workspace loaded :"
+msgstr "Arbeitsplatz geladen"
+
+#: ../librgnome/windows.py:375
+#: ../librgnome/windows.py:379
+#: ../librgnome/windows.py:424
+#: ../librgnome/windows.py:428
+msgid "Save as"
+msgstr "Speichern unter"
+
+#: ../librgnome/windows.py:410
+#: ../librgnome/windows.py:448
+msgid "workspace saved :"
+msgstr "Arbeitsplatz gespeichert:"
+
+#: ../librgnome/windows.py:458
+msgid "Printed on %a"
+msgstr "Gedruckt auf %a"
+
+#: ../librgnome/windows.py:469
+#, python-format
+msgid "Printing %.2f%%\t\r"
+msgstr "Gedruckt %.2f%%\t\r"
+
+#: ../librgnome/windows.py:474
+#, fuzzy
+msgid "Print Preview"
+msgstr "Druck-Vorschau"
+
+#: ../librgnome/windows.py:562
+msgid "Execution finished"
+msgstr "Auführung beendet"
+
+#: ../resource/rgnome.glade.h:1
+msgid "<b>Coding</b>"
+msgstr "<b>Kodierung</b>"
+
+#: ../resource/rgnome.glade.h:2
+msgid "<b>Foreground and Background</b>"
+msgstr "<b>Vorder- und Hintergrund</b>"
+
+#: ../resource/rgnome.glade.h:3
+msgid "<b>RConsole</b>"
+msgstr "<b>RConsole</b>"
+
+#: ../resource/rgnome.glade.h:4
+msgid "<b>RGnome</b>"
+msgstr "<b>RGnome</b>"
+
+#: ../resource/rgnome.glade.h:5
+msgid "<b>View</b>"
+msgstr "<b>Ansicht</b>"
+
+#: ../resource/rgnome.glade.h:6
+msgid "About this application"
+msgstr "Info zu diesem Programm"
+
+#: ../resource/rgnome.glade.h:7
+msgid "Background color:"
+msgstr "Hintergrund Farbe:"
+
+#: ../resource/rgnome.glade.h:8
+msgid ""
+"Black on White\n"
+"White on Black\n"
+"Green on Black"
+msgstr ""
+"Schwarz auf Weiß\n"
+"Weiß auf Schwarz\n"
+"Grün auf Schwarz"
+
+#: ../resource/rgnome.glade.h:11
+msgid "Built-in schemes:"
+msgstr "Voreingestellte Themenfarben:"
+
+#: ../resource/rgnome.glade.h:12
+msgid "Close currently open editor tab"
+msgstr "schließt den zur Zeit offen Editor Tab"
+
+#: ../resource/rgnome.glade.h:13
+msgid "Colors"
+msgstr "Farben"
+
+#: ../resource/rgnome.glade.h:14
+msgid "Configure the application"
+msgstr "Konfiguriert das Programm"
+
+#: ../resource/rgnome.glade.h:15
+msgid "Copy the selection"
+msgstr "Den markierten Text kopieren"
+
+#: ../resource/rgnome.glade.h:16
+msgid "Create a new document"
+msgstr "Erstellt ein neues Dokument"
+
+#: ../resource/rgnome.glade.h:17
+msgid "Create a new editor script"
+msgstr "Erstellt ein neues Script im Editor"
+
+#: ../resource/rgnome.glade.h:18
+msgid "Cursor blinks"
+msgstr "Cursor blinkt"
+
+#: ../resource/rgnome.glade.h:19
+msgid "Cut the selection"
+msgstr "Den markierten Text ausschneiden"
+
+#: ../resource/rgnome.glade.h:20
+msgid "Delete the selected text"
+msgstr "Den markierten Text löschen"
+
+#: ../resource/rgnome.glade.h:21
+msgid "Display line numbers"
+msgstr "Zeilennummern anzeigen"
+
+#: ../resource/rgnome.glade.h:22
+msgid "Display right margin"
+msgstr "Rechten Rand anzeigen"
+
+#: ../resource/rgnome.glade.h:23
+msgid "Editor"
+msgstr "Editor"
+
+#: ../resource/rgnome.glade.h:24
+msgid "Enable automatic indentation"
+msgstr "Automatischen Einzug aktivieren"
+
+#: ../resource/rgnome.glade.h:25
+msgid "Enable syntax highlighting"
+msgstr "Syntax-Hervorhebung verwenden"
+
+#: ../resource/rgnome.glade.h:26
+msgid "Execute currently open editor tab"
+msgstr "Ausführen des zur Zeit geöffneten Scriptes"
+
+#: ../resource/rgnome.glade.h:27
+msgid "Font:"
+msgstr "Schrift:"
+
+#: ../resource/rgnome.glade.h:28
+msgid "General"
+msgstr "Allgemein"
+
+#: ../resource/rgnome.glade.h:29
+msgid "Help Browser"
+msgstr "Hilfe Browser"
+
+#: ../resource/rgnome.glade.h:30
+msgid "Help Start"
+msgstr "Hilfe Start"
+
+#: ../resource/rgnome.glade.h:31
+msgid "Highlight current line"
+msgstr "aktuelle Zeile hervorheben"
+
+#: ../resource/rgnome.glade.h:32
+msgid "Highlight matching bracket"
+msgstr "Übereinstimmende Klammern hervorheben"
+
+#: ../resource/rgnome.glade.h:33
+msgid "Insert spaces instead of tabs"
+msgstr "An Stelle von Tabulatoren Leerzeichen einfügen"
+
+#: ../resource/rgnome.glade.h:34
+msgid "Open a file"
+msgstr "Eine Datei öffnen"
+
+#: ../resource/rgnome.glade.h:35
+msgid "Open an R workspace"
+msgstr "Öffne einen R Arbeitsplatz"
+
+#: ../resource/rgnome.glade.h:36
+msgid "Open an existing script"
+msgstr "Ein Script öffnen"
+
+#: ../resource/rgnome.glade.h:37
+msgid "Past the clipboard"
+msgstr "Den Inhalt in die Zwischenablage kopieren"
+
+#: ../resource/rgnome.glade.h:38
+msgid "Print preview"
+msgstr "Druck-Vorschau"
+
+#: ../resource/rgnome.glade.h:39
+msgid "Print the current document"
+msgstr "das aktuelle Dokument drucken"
+
+#: ../resource/rgnome.glade.h:40
+msgid "Quit the program"
+msgstr "Das Programm beenden"
+
+#: ../resource/rgnome.glade.h:41
+msgid "R Console"
+msgstr "R Konsole"
+
+#: ../resource/rgnome.glade.h:42
+msgid "RGnome"
+msgstr "RGnome"
+
+#: ../resource/rgnome.glade.h:43
+msgid "RGnome Preferences"
+msgstr "RGnome Einstellungen"
+
+#: ../resource/rgnome.glade.h:44
+msgid "Redo the last undone action"
+msgstr "Den rückgängig gemachten Vorgang wiederholen"
+
+#: ../resource/rgnome.glade.h:45
+msgid "Respawn GNU R if process exits"
+msgstr "GNU R neustarten, wenn der Prozess vorzeitig beendet wird"
+
+#: ../resource/rgnome.glade.h:46
+msgid "Save current R workspace"
+msgstr "Speicher den aktuellen R Arbeitsplatz"
+
+#: ../resource/rgnome.glade.h:47
+msgid "Save currently open editor tab"
+msgstr "Den aktuellen Editor Tab speichern"
+
+#: ../resource/rgnome.glade.h:48
+msgid "Save the current file"
+msgstr "Die aktuell offnen Datei speichern"
+
+#: ../resource/rgnome.glade.h:49
+msgid "Save the current file with a different name"
+msgstr "Die aktuelle Datei unter einem anderen Namen speichern"
+
+#: ../resource/rgnome.glade.h:50
+msgid "Script Editor"
+msgstr "Skript Editor"
+
+#: ../resource/rgnome.glade.h:51
+msgid "Search"
+msgstr "Suche"
+
+#: ../resource/rgnome.glade.h:52
+msgid "Select the entire document"
+msgstr "Das ganze Dokument markieren"
+
+#: ../resource/rgnome.glade.h:53
+msgid "Tab width:"
+msgstr "Tabulatorbreite:"
+
+#: ../resource/rgnome.glade.h:54
+msgid "Text color:"
+msgstr "Text-Farbe:"
+
+#: ../resource/rgnome.glade.h:55
+msgid "Undo the last action"
+msgstr "Die letze Aktion rückgängig machen"
+
+#: ../resource/rgnome.glade.h:56
+msgid "Use colors from the system theme"
+msgstr "Vom Thema vorgebene Farben verwenden"
+
+#: ../resource/rgnome.glade.h:57
+msgid "Use the system terminal font"
+msgstr "Die System Terminal Schrift verwenden"
+
+#: ../resource/rgnome.glade.h:58
+msgid "_Edit"
+msgstr "Bearbeiten"
+
+#: ../resource/rgnome.glade.h:59
+msgid "_File"
+msgstr "Datei"
+
+#: ../resource/rgnome.glade.h:60
+msgid "_Help"
+msgstr "Hilfe"
+
+#: ../resource/rgnome.glade.h:61
+msgid "_View"
+msgstr "Ansicht"
+
+#: ../resource/rgnome.glade.h:62
+msgid "gtk-go-back"
+msgstr ""
+
+#: ../resource/rgnome.glade.h:63
+msgid "gtk-go-forward"
+msgstr ""
+
